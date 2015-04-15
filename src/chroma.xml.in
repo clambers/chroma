@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE widget [
+<!ENTITY name "@PACKAGE_NAME@">
+<!ENTITY version "@PACKAGE_VERSION@">
+]>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="com.jlr.Fingerprint" version="&version;" viewmodes="fullscreen">
+  <content src="index.html" />
+  <name>&name;</name>
+  <tizen:application id="abcdefghijk" package="&name;" required_version="2.1" />
+  <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" />
+</widget>
