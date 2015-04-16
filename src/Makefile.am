@@ -15,7 +15,8 @@ ZFLAGS_V = $(ZFLAGS_V_@AM_V@)
 ZFLAGS_V_ = $(ZFLAGS) -q
 ZFLAGS_V_0 = $(ZFLAGS)
 
-all: $(BUILT_SOURCES) $(TARGET)
+wgtdir = /opt/usr/apps/.preinstallWidgets
+wgt_DATA = $(TARGET)
 
 $(TARGET): $(SOURCES)
 	$(AM_V_GEN) $(ZIP) $(ZFLAGS_V) $@ $(BUILT_SOURCES) $(SOURCES)
