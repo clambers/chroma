@@ -2,10 +2,14 @@
 <!DOCTYPE widget [
 <!ENTITY name "@PACKAGE_NAME@">
 <!ENTITY version "@PACKAGE_VERSION@">
+<!ENTITY url "@PACKAGE_URL@">
 ]>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="com.jlr.Fingerprint" version="&version;" viewmodes="fullscreen">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="&url;" version="&version;" viewmodes="fullscreen">
+  <tizen:application id="btBMP2zCA7.&name;" package="btBMP2zCA7" required_version="2.2" />
   <content src="index.html" />
   <name>&name;</name>
-  <tizen:application id="abcdefghijk" package="&name;" required_version="2.1" />
+  <author href="https://github.com/clambers" email="clambers@jaguarlandrover.com">Chris Lamberson</author>
+  <feature name="http://tizen.org/feature/screen.size.all" />
+  <license href="https://www.gnu.org/licenses/gpl-3.0-standalone.html">GPL-3.0</license>
   <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" />
 </widget>
