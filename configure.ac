@@ -9,7 +9,6 @@ AM_SILENT_RULES([yes])
 
 AC_CHECK_TOOL([ZIP], [zip])
 AC_CHECK_TOOL([XML_LINT], [xmllint])
-AC_CHECK_TOOL([SSH], [ssh])
 
 AC_CONFIG_FILES([Makefile src/Makefile src/chroma.xml])
 
