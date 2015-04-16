@@ -15,7 +15,7 @@ ZFLAGS_V = $(ZFLAGS_V_@AM_V@)
 ZFLAGS_V_ = $(ZFLAGS) -q
 ZFLAGS_V_0 = $(ZFLAGS)
 
-wgtdir = /opt/usr/apps/.preinstallWidgets
+wgtdir = $(datadir)/wgt
 wgt_DATA = $(TARGET)
 
 $(TARGET): $(SOURCES)
