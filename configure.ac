@@ -1,6 +1,6 @@
 AC_PREREQ([2.69])
 
-AC_INIT([Chroma], [1.0], [https://github.com/PDXostc/chroma/issues], [], [https://github.com/PDXostc/chroma])
+AC_INIT([Chroma], [0.1], [https://github.com/PDXostc/chroma/issues], [], [https://github.com/PDXostc/chroma])
 AC_CONFIG_SRCDIR([src/index.html])
 AC_CONFIG_AUX_DIR([build-aux])
 
